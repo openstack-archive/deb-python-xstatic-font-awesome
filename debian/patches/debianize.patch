@@ -1,0 +1,19 @@
+Description: Use the files provided by the fonts-font-awesome package
+Author: Thomas Goirand <zigo@debian.org>
+Forwarded: not-needed
+Last-Update: 2014-09-12
+
+--- python-xstatic-font-awesome-4.1.0.orig/xstatic/pkg/font_awesome/__init__.py
++++ python-xstatic-font-awesome-4.1.0/xstatic/pkg/font_awesome/__init__.py
+@@ -34,9 +34,9 @@ HOMEPAGE = 'https://fortawesome.github.i
+ LICENSE = '(same as %s)' % DISPLAY_NAME
+ 
+ from os.path import join, dirname
+-BASE_DIR = join(dirname(__file__), 'data')
++#BASE_DIR = join(dirname(__file__), 'data')
+ # linux package maintainers just can point to their file locations like this:
+-#BASE_DIR = '/usr/share/javascript/d3'
++BASE_DIR = '/usr/share/fonts-font-awesome'
+ 
+ LOCATIONS = {
+     # CDN locations (if no public CDN exists, use an empty dict)

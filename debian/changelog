@@ -1,0 +1,5 @@
+python-xstatic-font-awesome (4.1.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #761276)
+
+ -- Thomas Goirand <zigo@debian.org>  Fri, 12 Sep 2014 18:38:41 +0800

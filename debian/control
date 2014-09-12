@@ -1,0 +1,49 @@
+Source: python-xstatic-font-awesome
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>
+Build-Depends: debhelper (>= 9),
+               python-all (>= 2.6.6-3~),
+               python-setuptools,
+               python3-all,
+               python3-setuptools
+Build-Conflicts: python-xstatic, python3-xstatic
+Standards-Version: 3.9.5
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-xstatic-font-awesome.git
+Vcs-Git: git://anonscm.debian.org/openstack/python-xstatic-font-awesome.git
+Homepage: https://github.com/stackforge/xstatic-font-awesome
+
+Package: python-xstatic-font-awesome
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: fonts-font-awesome,
+         python-xstatic,
+         ${misc:Depends},
+         ${python:Depends}
+Description: Font Awesome XStatic support - Python 2.x
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ This package contains the Python 2.x module support for the Font Awesome.
+ See the description of the fonts-font-awesome package.
+
+Package: python3-xstatic-font-awesome
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: fonts-font-awesome,
+         python3-xstatic,
+         ${misc:Depends},
+         ${python3:Depends}
+Description: Font Awesome XStatic support - Python 3.x
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ This package contains the Python 3.x module support for the Font Awesome.
+ See the description of the fonts-font-awesome package.
