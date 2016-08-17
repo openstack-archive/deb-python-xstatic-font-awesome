@@ -1,0 +1,9 @@
+Code-Review+2: Matthias Runge <mrunge@redhat.com>
+Code-Review+2: David Lyle <dklyle0@gmail.com>
+Workflow+1: David Lyle <dklyle0@gmail.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Thu, 04 Dec 2014 16:27:38 +0000
+Reviewed-on: https://review.openstack.org/138840
+Project: openstack/deb-python-xstatic-font-awesome
+Branch: refs/heads/master

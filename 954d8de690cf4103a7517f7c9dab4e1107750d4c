@@ -1,0 +1,10 @@
+Code-Review+2: Radomir Dopieralski <openstack@sheep.art.pl>
+Code-Review+1: Liuqing Jing <lawrancejing@gmail.com>
+Code-Review+2: Matthias Runge <mrunge@redhat.com>
+Workflow+1: Matthias Runge <mrunge@redhat.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 06 Mar 2015 11:08:37 +0000
+Reviewed-on: https://review.openstack.org/155986
+Project: openstack/deb-python-xstatic-font-awesome
+Branch: refs/heads/master
